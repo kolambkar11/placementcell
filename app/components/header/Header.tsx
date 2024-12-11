@@ -1,0 +1,31 @@
+import React from "react";
+import Link from "next/link";
+import Navigationlinks from "./Navigationlinks";
+
+const data = [
+  {
+    title: "Dashboard",
+    route: "/",
+  },
+  {
+    title: "Jobs",
+    route: "/jobs",
+  },
+  {
+    title: "Profile",
+    route: "/profile",
+  },
+];
+const Header = () => {
+  return (
+    <>
+      <div className="text-2xl font-bold bg-amber-500 p-2 text-black flex">
+        {data.map((d) => {
+          return <Navigationlinks title={d.title} route={d.route} />;
+        })}
+      </div>
+    </>
+  );
+};
+
+export default Header;
