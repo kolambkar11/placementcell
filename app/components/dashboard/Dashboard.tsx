@@ -30,9 +30,10 @@ const Dashboard = () => {
       <div className="p-4">
         <h1 className="text-2xl font-bold">Dashboard</h1>
         <div className="flex gap-3">
-          {DashboardCardData.map((d) => {
+          {DashboardCardData.map((d, index) => {
             return (
               <Dasboardcard
+                key={index}
                 dataTitle={d.title}
                 dataCount={d.count}
                 bgClass={d.bgCls}

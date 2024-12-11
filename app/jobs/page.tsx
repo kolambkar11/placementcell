@@ -84,9 +84,10 @@ const Jobs = () => {
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200 bg-white">
-                      {company.map((c) => {
+                      {company.map((c, index) => {
                         return (
                           <Jobrow
+                            key={index}
                             companyId={c.companyId}
                             companyName={c.companyName}
                             driveDate={c.driveDate}

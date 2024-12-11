@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Forminputs from "./Forminputs";
 import Personal from "./Personal";
 import Academic from "./Academic";
 import Further from "./Further";
@@ -76,29 +75,6 @@ const Profile = () => {
       ) : (
         <></>
       )}
-      {/* <div className="w-3/4 mx-auto mt-4">
-        <h1 className="text-2xl font-bold">Personal Details</h1>
-        <form action="">
-          <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-12">
-            {inputs.map((i, index) => {
-              return (
-                <Forminputs
-                  type={i.type}
-                  title={i.title}
-                  id={i.id}
-                  options={i.options}
-                  key={index}
-                />
-              );
-            })}
-          </div>
-          <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-1">
-            <button className="btn border-t-zinc-500 p-2 rounded-md bg-blue-600 text-white w-full">
-              Submit
-            </button>
-          </div>
-        </form>
-      </div> */}
     </>
   );
 };

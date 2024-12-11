@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-interface dbCard {
-  dataTitle: string;
-  dataCount: number;
-  bgClass: string;
-}
+// interface dbCard {
+//   dataTitle: string;
+//   dataCount: number;
+//   bgClass: string;
+// }
 
 type dbCardType = {
   dataTitle: string;
