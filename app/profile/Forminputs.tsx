@@ -4,7 +4,7 @@ type formInputs = {
   type: string;
   title: string;
   id: string;
-  options: string[];
+  options?: string[];
 };
 const Forminputs = (props: formInputs) => {
   const { type, title, id, options } = props;

@@ -76,7 +76,6 @@ const Academic = () => {
                   type={i.type}
                   title={i.title}
                   id={i.id}
-                  options={i.options}
                   key={index}
                 />
               );
