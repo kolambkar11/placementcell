@@ -19,8 +19,10 @@ const Header = () => {
   return (
     <>
       <div className="text-2xl font-bold bg-amber-500 p-2 text-black flex">
-        {data.map((d) => {
-          return <Navigationlinks title={d.title} route={d.route} />;
+        {data.map((d, index) => {
+          return (
+            <Navigationlinks key={index} title={d.title} route={d.route} />
+          );
         })}
       </div>
     </>
