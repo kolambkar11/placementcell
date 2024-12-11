@@ -34,19 +34,19 @@ const Profile = () => {
       <div className="w-3/4 mx-auto mt-4">
         <div className="grid grid-cols-4 gap-x-6 gap-y-8 sm:grid-cols-3">
           <span
-            className="border text-center py-3 px-4 bg-slate-200"
+            className="border text-center py-3 px-4 bg-slate-200 cursor-pointer hover:shadow-xl transition"
             onClick={handleClickBtnPersonal}
           >
             Personal
           </span>
           <span
-            className="border text-center py-3 px-4 bg-slate-200"
+            className="border text-center py-3 px-4 bg-slate-200 cursor-pointer hover:shadow-xl transition"
             onClick={handleClickBtnAcademic}
           >
             Academic
           </span>
           <span
-            className="border text-center py-3 px-4 bg-slate-200"
+            className="border text-center py-3 px-4 bg-slate-200 cursor-pointer hover:shadow-xl transition"
             onClick={handleClickBtnFurther}
           >
             Further
