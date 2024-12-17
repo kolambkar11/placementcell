@@ -1,0 +1,42 @@
+[
+    {
+    "stdId":1,
+        "personal":{
+            "initials":"Mr.",
+            "firstname":"Ashutosh",
+            "middleName":"Anand",
+            "lastName":"Kolambkar",
+            "email":"kolambkarashutosh@gmail.com",
+            "contactNumber":"8692805802",
+            "dob":"14/10/1996",
+            "rollNumber":"14302c0147",
+            "gender":"M",
+            "district":"Mumbai",
+            "city":"Mumbai",
+            "state":"Maharashtra",
+            "country":"India",
+            "nationality":"Indian"
+        },
+        "academic":{
+            "tenth":"71.27",
+            "schoolName":"IES Modern English School",
+            "passingSSC":"2012",
+            "locationSSC":"Dadar, Mumbai",
+            "twelveth":"59.38",
+            "collegeName":"Kirti College",
+            "passingHSC":"201r",
+            "specialization":"Information Technology",
+            "graduationPercentage":"63.64",
+            "collegeNameGrad":"Vidyalankar School of Information Technology",
+            "passingGrad":"2017",
+            "specializationGrad":"Information Technology",
+            "specializationPG":"Information Technology",
+            "PGPercentage":"64",
+            "collegeNamePG":"Vidyalankar School of Information Technology",
+            "passingPG":"2020"
+        },
+        "further":{
+            
+        }
+    }
+]

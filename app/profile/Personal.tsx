@@ -75,6 +75,8 @@ const inputs = [
   },
 ];
 
+import data from "../../db.json";
+console.log(data);
 const Personal = () => {
   return (
     <>
